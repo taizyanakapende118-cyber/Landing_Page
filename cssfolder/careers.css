@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
-
+/*global style selector*/
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,11 +9,11 @@
     transition: all .2s linear;
     text-decoration: none;
 }
-
+/*html tag selector*/
 html{
     font-size: 62.5%;
 }
-
+/*body selector*/
 body{
     overflow-x: hidden;
 }
@@ -53,7 +53,7 @@ body{
     font-size: 2rem;
     color: #fff;
 }
-
+/* font size set to 2rem*/
 .header .navbar ul li a:hover{
     color: #00bfff;
     text-decoration: underline;
@@ -89,11 +89,11 @@ body{
     color: #fff;
     font-size: 5.5rem;
 }
-
+/*font size set 5.5rem*/
 .career-heading{
     text-align: center;
 }
-
+/*text aglined to center */
 .heading{
     padding-top: 6rem;
     display: inline-block;
@@ -142,6 +142,7 @@ body{
 			box-shadow: 0px 0px 10px 0px #666;
 		}
 		.career-form
+/*career form created*/
 		{
             margin-top: .5rem;
 			width: 100%;
